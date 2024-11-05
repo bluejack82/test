@@ -1,1 +1,14 @@
-
+{
+  "name": "Android Development Environment",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "java.home": "/usr/local/sdkman/candidates/java/current"
+  },
+  "extensions": [
+    "ms-azuretools.vscode-docker",
+    "vscjava.vscode-java-pack",
+    "ms-vscode.android-emulator"
+  ]
+}
